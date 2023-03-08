@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style/signup.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Sign Up</h1>
+        <form action="" method="get">
+            <div class="name">
+                <label for="name">First Name:
+                </label>
+                <input type="text" id="name" minlength="4" maxlength="15" placeholder="First Name" required="required">
+            </div>
+            <div class="family">
+                <label for="family">Last Name:
+                </label>
+                <input type="text" id="family" minlength="4" maxlength="15" placeholder="Last Name" required="required">
+            </div>
+            <div class="user">
+                <label for="user">User Name:
+                </label>
+                <input type="text" id="user" minlength="4" maxlength="15" placeholder="User Name" required="required">
+            </div>
+            <div class="email">
+                <label for="email">Email Address:
+                </label>
+                <input type="email" id="email" placeholder="Email Address" required="required">
+            </div>
+            <div class="password">
+                <label for="password">Password:
+                </label>
+                <input type="password" id="password" minlength="4" maxlength="12" placeholder="Password" required="required">
+            </div>
+            <div class="radio">
+                <div class="radio__student">
+                    <label for="student">I am student</label>
+                    <input type="radio" id="student" name="st_or_tech" value="student" required="required">
+                </div>
+
+                <div class="radio__teacher">
+                    <label for="teacher">I am teacher</label>
+                    <input type="radio" id="teacher" name="st_or_tech" value="teacher" required="required">
+                </div>
+            </div>
+
+            <div class="box__btn">
+                <input type="reset" value="Clean">
+                <input type="submit" value="Submit">
+                
+            </div>
+            
+        </form>
+        <div class="links">
+            <a href="#">Exit</a>
+            <a href="./registr.html">Sign In</a>
+        </div>
+    </div>
+</body>
+</html>
